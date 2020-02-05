@@ -13,7 +13,7 @@ final=[]
      final.push( "I love " + src[count][0] +" and "+ src[count][1] +" on my pizza", )
      count+=1
    end
-   final
+   p final
 end
 
 def find_greater_pair(src)
