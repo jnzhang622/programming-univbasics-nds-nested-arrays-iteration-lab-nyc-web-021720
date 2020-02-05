@@ -28,8 +28,9 @@ def find_greater_pair(src)
        final << src[count][0]
     else
       final src[count][1]
-      
+    
      count = count + 1
+   end
    end
    return final
 end
