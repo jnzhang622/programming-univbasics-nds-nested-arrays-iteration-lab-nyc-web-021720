@@ -8,7 +8,6 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   final=[]
    count=0
-   element_index=0
    while count<src.size do
      final.push( "I love " + src[count][element_index] +" and "+ src[count][element_index+1] +" on my pizza", )
      count+=1
