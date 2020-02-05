@@ -9,7 +9,7 @@ def join_ingredients(src)
   
   final = []
    count = 0
-   while count < src.size do
+   while count < src.length do
      final << ("I love " + src[count][0] +" and "+ src[count][1] +" on my pizza")
      count = count + 1
    end
@@ -23,7 +23,7 @@ def find_greater_pair(src)
 
   final = []
    count = 0
-   while count < src.size do
+   while count < src.length do
      if  src[count][0] > src[count][1] 
        final << src[count][0]
     else
