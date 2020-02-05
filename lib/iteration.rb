@@ -7,10 +7,10 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   
-  final=[]
-   count=0
+  final = 0
+   count = 0
    while count<src.size do
-     final.push( "I love " + src[count][0] +" and "+ src[count][1] +" on my pizza", )
+     final = ( "I love #{src[count][0]} and #{src[count][1]} on my pizza", )
      count+=1
    end
    final
