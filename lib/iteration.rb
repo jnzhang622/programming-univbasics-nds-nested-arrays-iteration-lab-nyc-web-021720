@@ -21,7 +21,8 @@ def find_greater_pair(src)
 
    count = 0
    while count < src.size do
-     return ("I love " + src[count][0] +" and "+ src[count][1] +" on my pizza",)
+     src[count].sort
+     return src[count[0]]
      count = count + 1
    end
 end
