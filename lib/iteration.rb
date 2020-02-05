@@ -9,8 +9,8 @@ def join_ingredients(src)
   
   final = 0
    count = 0
-   while count<src.size do
-     return ( "I love #{src[count][0]} and #{src[count][1]} on my pizza")
+   while count < src.size do
+     p ("I love #{src[count][0]} and #{src[count][1]} on my pizza")
      count = count + 1
    end
 end
