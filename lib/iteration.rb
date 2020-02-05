@@ -25,7 +25,7 @@ def find_greater_pair(src)
    count = 0
    while count < src.size do
      src[count].sort
-      final << src[count[0]]
+      final << src[count[1]]
      count = count + 1
    end
    return final
